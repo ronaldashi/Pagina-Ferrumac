@@ -33,6 +33,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     body {
       background-repeat: no-repeat;
@@ -61,6 +62,9 @@
 </head>
 
 <body>
+
+  <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
+    target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
   <!-- Page Loader-->
   <div class="preloader" id="preloader">
     <div class="page-loader-logo">
@@ -106,7 +110,7 @@
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.php">Inicio</a>
                   </li>
-                  <li ><a href="about-us.php">Acerca de</a>
+                  <li><a href="about-us.php">Acerca de</a>
                     <!--</li>
                     <li><a href="typography.php">Typography</a>
                     </li>-->
@@ -210,6 +214,7 @@
         </div>
       </div>
     </section>
+
     <!-- Experience since 1999-->
     <section class="section section-md bg-gray-4">
       <div class="container">
@@ -236,97 +241,9 @@
       </div>
     </section>
     <!-- Our Products-->
-    <section class="section section-md bg-default text-center">
-      <div class="container">
-        <div class="isotope-wrap isotope-modern-wrap">
-          <!-- Section Header-->
-          <div class="section__header">
-            <h2>Products</h2>
-            <div class="section__header-element"><a class="link-cta" href="#">view all products</a></div>
-          </div>
-          <div class="isotope" data-isotope-layout="fitRows" data-isotope-group="products">
-            <div class="row row-offset-2">
-              <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 1">
-                <!-- Product-->
-                <article class="product"> <a class="product__image-wrap" href="#"><img class="product__image"
-                      src="images/product-01-210x200.jpg" alt="" width="210" height="200" /></a>
-                  <div class="product__main">
-                    <p class="product__title"><a href="#">Textured White Tiles</a></p>
-                    <p class="product__price">from $350</p>
-                  </div>
-                  <div class="product__footer"><a class="button button-xs button-gray-2" href="#">details</a></div>
-                </article>
-              </div>
-              <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 2">
-                <!-- Product-->
-                <article class="product"> <a class="product__image-wrap" href="#"><img class="product__image"
-                      src="images/product-02-210x200.jpg" alt="" width="210" height="200" /></a>
-                  <div class="product__main">
-                    <p class="product__title"><a href="#">Basketweave Tiles</a></p>
-                    <p class="product__price">from $450</p>
-                  </div>
-                  <div class="product__footer"><a class="button button-xs button-gray-2" href="#">details</a></div>
-                </article>
-              </div>
-              <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 1">
-                <!-- Product-->
-                <article class="product"> <a class="product__image-wrap" href="#"><img class="product__image"
-                      src="images/product-03-210x200.jpg" alt="" width="210" height="200" /></a>
-                  <div class="product__main">
-                    <p class="product__title"><a href="#">Vellum Tiles</a></p>
-                    <p class="product__price">from $250</p>
-                  </div>
-                  <div class="product__footer"><a class="button button-xs button-gray-2" href="#">details</a></div>
-                </article>
-              </div>
-              <div class="col-6 col-md-4 col-lg-3 isotope-item" data-filter="Category 2">
-                <!-- Product-->
-                <article class="product"> <a class="product__image-wrap" href="#"><img class="product__image"
-                      src="images/product-04-210x200.jpg" alt="" width="210" height="200" /></a>
-                  <div class="product__main">
-                    <p class="product__title"><a href="#">Stone Wall Tiles</a></p>
-                    <p class="product__price">from $590</p>
-                  </div>
-                  <div class="product__footer"><a class="button button-xs button-gray-2" href="#">details</a></div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  
     <!-- Latest News-->
-    <section class="section section-md bg-gray-4 text-center">
-      <div class="container">
-        <h2>Latest News</h2>
-        <div class="row row-50">
-          <div class="col-md-6 wow fadeInRightSmall">
-            <!-- Post boxed-->
-            <article class="post-boxed"><a class="post-boxed__image-wrap" href="#"><img class="post-boxed__image"
-                  src="images/post-1-524x355.jpg" alt="" width="524" height="355" /></a>
-              <div class="post-boxed__main">
-                <time class="post-boxed__time" datetime="2018"><span class="big">25</span><span>March</span></time>
-                <p class="post-boxed__title"><a href="#">Choosing the Right Tile Size for <br> Your
-                    Bathroom: 5
-                    Important Tips</a></p>
-              </div>
-            </article>
-          </div>
-          <div class="col-md-6 wow fadeInRightSmall" data-wow-delay=".15s">
-            <!-- Post boxed-->
-            <article class="post-boxed"><a class="post-boxed__image-wrap" href="#"><img class="post-boxed__image"
-                  src="images/post-2-524x355.jpg" alt="" width="524" height="355" /></a>
-              <div class="post-boxed__main">
-                <time class="post-boxed__time" datetime="2018"><span class="big">01</span><span>February</span></time>
-                <p class="post-boxed__title"><a href="#">Best Tiles for Your Kitchen: <br> The Latest
-                    Collections of
-                    2018</a></p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
+    
     <footer class="footer-classic bg-gray-8">
       <div class="container">
         <div class="footer-classic__main">

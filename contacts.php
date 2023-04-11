@@ -16,21 +16,21 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
-    .ie-panel {
-        display: none;
-        background: #212121;
-        padding: 10px 0;
-        box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
-        clear: both;
-        text-align: center;
-        position: relative;
-        z-index: 1;
-    }
+        .ie-panel {
+            display: none;
+            background: #212121;
+            padding: 10px 0;
+            box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+            clear: both;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
 
-    html.ie-10 .ie-panel,
-    html.lt-ie-10 .ie-panel {
-        display: block;
-    }
+        html.ie-10 .ie-panel,
+        html.lt-ie-10 .ie-panel {
+            display: block;
+        }
     </style>
 </head>
 
@@ -100,12 +100,13 @@
             </div>
         </header>
         <!-- Breadcrumbs-->
-        <section class="breadcrumbs-custom bg-image" style="background-image: url(images/bg-image-1.jpg);">
+        <section class="breadcrumbs-custom bg-image"
+            style="background-image: url(images/contact.jpg); background-attachment: fixed;">
             <div class="container">
-                <h2 class="breadcrumbs-custom__title">Contacts</h2>
+                <h2 class="breadcrumbs-custom__title">Contacto</h2>
                 <ul class="breadcrumbs-custom__path">
                     <li><a href="index.php">Home</a></li>
-                    <li class="active">Contacts</li>
+                    <li class="active">Contacto</li>
                 </ul>
             </div>
         </section>
@@ -115,9 +116,8 @@
                 <div class="layout-bordered">
                     <div class="layout-bordered__main text-center">
                         <div class="layout-bordered__main-inner">
-                            <h3>Get in Touch</h3>
-                            <p>We are available 24/7 by fax, e-mail or by phone. You can also use our quick contact form
-                                to ask a question about our services and projects.</p>
+                            <h3>Contactanos</h3>
+                            <p>Estamos disponibles para cualquier inquietud</p>
                             <!-- RD Mailform-->
                             <form class="rd-mailform" data-form-output="form-output-global" data-form-type="contact"
                                 method="post" action="bat/rd-mailform.php">
@@ -126,19 +126,19 @@
                                         <div class="form-wrap">
                                             <input class="form-input" id="contact-first-name" type="text"
                                                 name="first-name" data-constraints="@Required">
-                                            <label class="form-label" for="contact-first-name">First name</label>
+                                            <label class="form-label" for="contact-first-name">Nombre Completo</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-wrap">
                                             <input class="form-input" id="contact-phone" type="text" name="phone"
                                                 data-constraints="@Numeric @Required">
-                                            <label class="form-label" for="contact-phone">Phone</label>
+                                            <label class="form-label" for="contact-phone">Telefono</label>
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
                                         <div class="form-wrap">
-                                            <label class="form-label" for="contact-message">Your Message</label>
+                                            <label class="form-label" for="contact-message">Tu mensaje</label>
                                             <textarea class="form-input" id="contact-message" name="message"
                                                 data-constraints="@Required"></textarea>
                                         </div>
@@ -147,12 +147,12 @@
                                         <div class="form-wrap">
                                             <input class="form-input" id="contact-email" type="email" name="email"
                                                 data-constraints="@Email @Required">
-                                            <label class="form-label" for="contact-email">E-mail</label>
+                                            <label class="form-label" for="contact-email">Correo Electronico</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <button class="button button-block button-primary" type="submit">Send
-                                            Message</button>
+                                        <button class="button button-block button-primary" type="submit">Enviar
+                                            Mensaje</button>
                                     </div>
                                 </div>
                             </form>
@@ -160,20 +160,22 @@
                     </div>
                     <div class="layout-bordered__aside">
                         <div class="layout-bordered__aside-item">
-                            <p class="heading-8">Get social</p>
+                            <p class="heading-8">Redes Sociales</p>
                             <ul class="list-inline-xs">
-                                <li><a class="icon icon-sm icon-default fa fa-facebook" href="#"></a></li>
-                                <li><a class="icon icon-sm icon-default fa fa-twitter" href="#"></a></li>
-                                <li><a class="icon icon-sm icon-default fa fa-google" href="#"></a></li>
-                                <li><a class="icon icon-sm icon-default fa fa-youtube" href="#"></a></li>
+                                <li><a class="icon icon-sm icon-default fa fa-facebook"
+                                        href="https://www.facebook.com/profile.php?id=100083077797399"></a></li>
+                                <li><a class="icon icon-sm icon-default fa fa-instagram"
+                                        href="https://www.instagram.com/ferrumac_12/"></a></li>
+                                <li><a class="icon icon-sm icon-default fa fa-youutube"
+                                        href="https://www.youtube.com/channel/UCP-IlAPxkrb_nh5-4AAIysg"></a></li>
                             </ul>
                         </div>
                         <div class="layout-bordered__aside-item">
-                            <p class="heading-8">Phone</p>
+                            <p class="heading-8">Telefono</p>
                             <div class="unit flex-row unit-spacing-xxs">
                                 <div class="unit__left"><span
                                         class="icon icon-sm icon-primary material-icons-local_phone"></span></div>
-                                <div class="unit__body"><a href="tel:#">1-800-1234-567</a></div>
+                                <div class="unit__body"><a href="tel:#">+57 323 218 1335</a></div>
                             </div>
                         </div>
                         <div class="layout-bordered__aside-item">
@@ -181,7 +183,7 @@
                             <div class="unit flex-row unit-spacing-xxs">
                                 <div class="unit__left"><span
                                         class="icon icon-sm icon-primary mdi mdi-email-outline"></span></div>
-                                <div class="unit__body"><a href="mailto:#">info@demolink.org</a></div>
+                                <div class="unit__body"><a href="mailto:#">ferrumac12@gmail.com</a></div>
                             </div>
                         </div>
                         <div class="layout-bordered__aside-item">
@@ -189,7 +191,7 @@
                             <div class="unit flex-row unit-spacing-xxs">
                                 <div class="unit__left"><span
                                         class="icon icon-sm icon-primary material-icons-location_on"></span></div>
-                                <div class="unit__body"><a href="#">6036 Richmond hwy., <br> Alexandria, VA, 2230</a>
+                                <div class="unit__body"><a href="#">Carrera 15 #23 - 24, Tunja, Boyacá</a>
                                 </div>
                             </div>
                         </div>
@@ -197,31 +199,42 @@
                 </div>
             </div>
         </section>
+
+
         <!-- RD Google Map-->
         <section class="section">
-            <div class="google-map-container" data-center="6036 Richmond hwy., Alexandria, VA, 2230" data-zoom="5"
-                data-styles="[{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#e9e9e9&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:17}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:29},{&quot;weight&quot;:0.2}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:18}]},{&quot;featureType&quot;:&quot;road.local&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f5f5f5&quot;},{&quot;lightness&quot;:21}]},{&quot;featureType&quot;:&quot;poi.park&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#dedede&quot;},{&quot;lightness&quot;:21}]},{&quot;elementType&quot;:&quot;labels.text.stroke&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;on&quot;},{&quot;color&quot;:&quot;#ffffff&quot;},{&quot;lightness&quot;:16}]},{&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:36},{&quot;color&quot;:&quot;#333333&quot;},{&quot;lightness&quot;:40}]},{&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;},{&quot;lightness&quot;:19}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:20}]},{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;geometry.stroke&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#fefefe&quot;},{&quot;lightness&quot;:17},{&quot;weight&quot;:1.2}]}]">
-                <div class="google-map"></div>
-                <ul class="google-map-markers">
-                    <li data-location="6036 Richmond hwy., Alexandria, VA, 2230"
-                        data-description="6036 Richmond hwy., Alexandria, VA, 2230" data-icon="images/gmap_marker.png"
-                        data-icon-active="images/gmap_marker_active.png"></li>
-                </ul>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="100%" height="510px" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Carrera 15 N 23 - 24, Tunja, Boyaca&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://2yu.co">2yu</a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 100%;
+                            width: 100%;
+                        }
+                    </style>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 100%;
+                            width: 100%;
+                        }
+                    </style>
+                </div>
             </div>
         </section>
-        
+
         <footer class="footer-classic bg-gray-8">
             <div class="container">
                 <div class="footer-classic__main">
                     <ul class="list-nav-bordered">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about-us.php">About Us</a>
-                        </li>
-                        <li><a href="#">Production</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Media</a></li>
-                        <li><a href="contacts.php">Contacts</a>
-                        </li>
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="about-us.php">Acerca De</a></li>
+                        <li><a href="contacts.php">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="divider"></div>
@@ -229,18 +242,16 @@
                     <div class="row row-20">
                         <div class="col-md-6 text-md-left">
                             <!-- Rights-->
-                            <p class="rights"><span>Quarex</span><span>&nbsp;&copy;&nbsp;</span><span
-                                    class="copyright-year"></span>. All Rights Reserved. Design by <a
-                                    href="https://www.templatemonster.com">TemplateMonster</a></p>
+                        
                         </div>
                         <div class="col-md-6 text-md-right">
                             <ul class="list-inline-xxs">
                                 <li>
-                                    <p>Follow Us</p>
+                                    <p>Siguenos</p>
                                 </li>
-                                <li><a class="icon icon-xs icon-style-modern fa fa-facebook" href="#"></a></li>
-                                <li><a class="icon icon-xs icon-style-modern fa fa-twitter" href="#"></a></li>
-                                <li><a class="icon icon-xs icon-style-modern fa fa-instagram" href="#"></a></li>
+                                <li><a class="icon icon-xs icon-style-modern fa fa-facebook" href="https://www.facebook.com/profile.php?id=100083077797399"></a></li>
+    
+                                <li><a class="icon icon-xs icon-style-modern fa fa-instagram" href="https://www.instagram.com/ferrumac_12/"></a></li>
                             </ul>
                         </div>
                     </div>
