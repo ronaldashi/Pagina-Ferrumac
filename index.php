@@ -63,7 +63,7 @@
 
 <body>
 
-  <a href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche" class="whatsapp"
+  <a href="https://wa.me/573232181335?text=Me%20gustaría%20saber%20mas%20sobre%20la%20empresa" class="whatsapp"
     target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
   <!-- Page Loader-->
   <div class="preloader" id="preloader">
@@ -110,7 +110,7 @@
                 <ul class="rd-navbar-nav">
                   <li class="active"><a href="index.php">Inicio</a>
                   </li>
-                  <li><a href="about-us.php">Acerca de</a>
+                  <li><a href="about-us.php">Productos</a>
                     <!--</li>
                     <li><a href="typography.php">Typography</a>
                     </li>-->
@@ -249,13 +249,8 @@
         <div class="footer-classic__main">
           <ul class="list-nav-bordered">
             <li><a href="index.php">Inicio</a></li>
-            <li><a href="about-us.php">Acerca De</a>
-            </li>
-            <li><a href="#">Contactos</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Media</a></li>
-            <li><a href="contacts.php">Contacts</a>
-            </li>
+            <li><a href="about-us.php">Productos</a></li>
+            <li><a href="contacts.php">Contactos</a></li>
           </ul>
         </div>
         <div class="divider"></div>
